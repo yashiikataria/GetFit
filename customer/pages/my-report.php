@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="../css/jquery.gritter.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 </head>
-<body><!-- Visit codeastro.com for more projects -->
+<body><!-- code-->
 
 <!--Header-part-->
 <div id="header">
@@ -132,7 +132,7 @@
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; </a> </div>
 </div>
 
 <style>

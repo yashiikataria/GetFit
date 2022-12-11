@@ -5,7 +5,7 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+<!-- code-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +34,7 @@ header('location:../index.php');
 <!--top-Header-menu-->
 <?php include 'includes/topheader.php'?>
 <!--close-top-Header-menu-->
-<!-- Visit codeastro.com for more projects -->
+<!-- code-->
 <!--sidebar-menu-->
 <?php $page='staff-management'; include 'includes/sidebar.php'?>
 <!--sidebar-menu-->
@@ -114,7 +114,7 @@ header('location:../index.php');
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; </a> </div>
 </div>
 
 <style>

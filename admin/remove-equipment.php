@@ -5,7 +5,7 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+<!-- code-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,7 @@ header('location:../index.php');
 <div id="header">
   <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
 </div>
-<!--close-Header-part--> <!-- Visit codeastro.com for more projects -->
+<!--close-Header-part--> <!-- code-->
 
 
 <!--top-Header-menu-->
@@ -119,7 +119,7 @@ header('location:../index.php');
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; </a> </div>
 </div>
 
 <style>

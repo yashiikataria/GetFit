@@ -41,6 +41,6 @@
 
      
    
-    <!-- Visit codeastro.com for more projects -->
+    <!-- code-->
   </ul>
 </div>

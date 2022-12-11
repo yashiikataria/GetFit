@@ -5,7 +5,7 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +40,7 @@ header('location:../index.php');
   <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
 </div> -->
 <!--close-top-serch-->
-<!-- Visit codeastro.com for more projects -->
+<!-- code-->
 <!--sidebar-menu-->
 <?php $page='manage-customer-progress'; include 'includes/sidebar.php'?>
 <!--sidebar-menu-->
@@ -127,7 +127,7 @@ header('location:../index.php');
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; </a> </div>
 </div>
 
 <style>

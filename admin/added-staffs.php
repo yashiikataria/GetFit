@@ -5,7 +5,7 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +31,7 @@ header('location:../index.php');
 <!--top-Header-menu-->
 <?php include 'includes/topheader.php'?>
 
-<!-- Visit codeastro.com for more projects -->
+
 <!--sidebar-menu-->
   <?php $page='staff-management'; include 'includes/sidebar.php'?>
 <!--sidebar-menu-->
@@ -102,7 +102,7 @@ header('location:../index.php');
                     echo"</div>";
 
                     }
-                    // <!-- Visit codeastro.com for more projects -->
+                   
                     }else{
                         echo"<h3>YOU ARE NOT AUTHORIZED TO REDIRECT THIS PAGE. GO BACK to <a href='index.php'> DASHBOARD </a></h3>";
                     }
@@ -114,15 +114,14 @@ header('location:../index.php');
 </div>
 <!--Footer-part-->
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Yashika</a> </div>
 </div>
 
 <style>
 #footer {
   color: white;
 }
-</style><!-- Visit codeastro.com for more projects -->
-<!--end-Footer-part-->
+</style>
 <script src="../js/jquery.min.js"></script> 
 <script src="../js/jquery.ui.custom.js"></script> 
 <script src="../js/bootstrap.min.js"></script> 

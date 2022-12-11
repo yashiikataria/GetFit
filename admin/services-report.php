@@ -10,7 +10,7 @@ include "dbcon.php";
 $qry="SELECT services, count(*) as number FROM members GROUP BY services";
 $result=mysqli_query($con,$qry);
 ?>
-<!-- Visit codeastro.com for more projects -->
+<!-- code-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +69,7 @@ $result=mysqli_query($con,$qry);
   <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
 </div> -->
 <!--close-top-serch-->
-<!-- Visit codeastro.com for more projects -->
+<!-- code-->
 <!--sidebar-menu-->
 <?php $page='service-repo'; include 'includes/sidebar.php'?>
 <!--sidebar-menu-->
@@ -100,7 +100,7 @@ $result=mysqli_query($con,$qry);
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; </a> </div>
 </div>
 
 <style>
